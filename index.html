@@ -1,12 +1,43 @@
 ---
-layout: home
+layout: landing
+header: true
+mode: immersive
+title: Welcome to HTCC
+excerpt: >
+  The latest source for all about the temple and our community. 
+permalink: /index.html
+
 article_header:
-  type: overlay
+  actions:
+    - text: Donate
+      type: error
+      url: /donate
+    - text: Events
+      type: outline-theme-dark
+      url: /news?tag=Event
+  height: 100vh
   theme: dark
-  background_color: '#203028'
+  background_color: "#367a9a"
   background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    gradient: "linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .6))"
     src: /assets/images/DSC_5230.jpg
+data:
+  sections:
+  - title: Temple Information
+    children:
+      - title: Location
+        excerpt: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.84039255426!2d-104.83264778495166!3d39.58574737947031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c8f45a2058f6f%3A0x4228b910218b1ce3!2s7201%20S%20Potomac%20St%2C%20Centennial%2C%20CO%2080112!5e0!3m2!1sen!2sus!4v1631145991471!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        actions:
+          - text: Learn More
+            url: /location
+      - title: Timings
+        excerpt: <div><b>Saturday-Sunday</b></div><div>9:00 AM - 2:00 PM</div><div>05:00 PM - 08:30 PM</div><div><b>Monday-Friday</b></div><div>9:00 AM - 1:00 PM</div><div>06:00 PM - 08:30 PM</div>
+        actions:
+          - text: Learn More
+            url: /calendar
+      - title: Services
+        excerpt: Various form of Poojas performed at the request of the Yajmans - the sponsors. 
+        actions:
+          - text: Learn More
+            url: /services
 ---
-
-
