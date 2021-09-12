@@ -128,7 +128,7 @@
   </ul>
 </div>
 <div class="author-links">
-  <ul class="menu menu--nowrap menu--inline">
+  <ul class="menu menu--inline">
     {%- include snippets/get-locale-string.html key='EMAIL_ME' -%}
     {%- if _author.email -%}
       <li title="{{ _locale_string_email }}">
@@ -136,6 +136,7 @@
         <!-- <i class="fas fa-envelope"></i> -->
         {{ _author.email }}
       </a>
+      </li>
     {%- endif -%}
 
     {%- if _author.phone -%}
@@ -144,6 +145,7 @@
         <!-- <i class="fas fa-envelope"></i> -->
         {{ _author.phone }}
       </a>
+      </li>
     {%- endif -%}
-</ul>
+  </ul>
 </div>
