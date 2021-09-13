@@ -2,7 +2,6 @@
 title: Ganesh Chaturthi Pooja
 tags: Event
 cover: "/assets/images/Ganesh.jpeg"
-
 ---
 If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:
 
