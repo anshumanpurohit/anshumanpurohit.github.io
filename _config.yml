@@ -113,11 +113,11 @@ sources: # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: addthis # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
   addthis:
-    id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
+    id: ra-613ed91429ec68af # AddThis pubid, e.g. ra-5xxxxxxxxxxx
 
 
 ## => Comments
@@ -220,6 +220,7 @@ defaults:
       show_edit_on_github: false
       show_subscribe: false
       pageview: true
+      comment: true
   - scope:
       path: ""
       type: pages
@@ -232,6 +233,7 @@ defaults:
       show_edit_on_github: false
       show_subscribe: false
       pageview: true
+      comment: false
 
 
 ## => Plugins
