@@ -21,14 +21,16 @@ highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-nig
 url     : https://hindutempleofcolorado.net # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Hindu Temple of the Rockies
+short_title : HTCC
 description: > # this means to ignore newlines until "Language & timezone"
   The landing webpage for the Hindu Temple 
   and Cultural Center (HTCC) of Colorado.
-
+color: #fdb824
 
 ## => Language and Timezone
 ##############################
 lang: en # the language of your site, default as "en"
+lang_direction: ltr
 timezone: America/Denver # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
