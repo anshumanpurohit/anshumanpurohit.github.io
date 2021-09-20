@@ -1,6 +1,18 @@
 header:
   - titles:
       # @start locale config
+      en      : &EN       Services
+      # @end locale config
+    url: /services
+
+  - titles:
+      # @start locale config
+      en      : &EN       Calendar
+      # @end locale config
+    url: /calendar
+
+  - titles:
+      # @start locale config
       en      : &EN       News
       # @end locale config
     url: /news
