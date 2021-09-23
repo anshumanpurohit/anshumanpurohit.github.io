@@ -15,3 +15,5 @@ fields:
 - type: text
   name: permalink
   label: permalink
+pages:
+- _posts/2021-09-21-diwali-mela.md
