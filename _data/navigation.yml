@@ -15,7 +15,7 @@ header:
       # @start locale config
       en      : &EN       News
       # @end locale config
-    url: /news
+    url: /archive.html
 
   - titles:
       # @start locale config
