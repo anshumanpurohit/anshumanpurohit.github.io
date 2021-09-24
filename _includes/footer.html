@@ -2,7 +2,7 @@
 <footer class="footer py-4 js-page-footer" style="background-image: url('/assets/images/footer.png');">
   <div class="main">
     <div class="grid">
-      <adress class="cell cell--12 cell--lg-6 content">
+      <adress class="cell cell--12 cell--lg-8 content">
         {%- assign _site_author = site.author -%}
         {%- if _site_author.type == 'organization' -%}
           {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
@@ -25,24 +25,22 @@
         </div>
       </adress>
 
-      <div class="cell cell--12 cell--md-6 cell--lg-3 content">
-        <div><b>Saturday-Sunday Hours</b></div>
+      <div class="cell cell--12 cell--md-6 cell--lg-2 content">
+        <div><a href="/about">About Us</a></div>
+        <div><a href="/board">HTCC Management</a></div>
+        <div><a href="/priests">Our Priests</a></div>
+        <div><a href="/contact">Contact Us</a></div>
+      </div>
+
+      <div class="cell cell--12 cell--md-6 cell--lg-2 content">
+        <div><b>Saturday-Sunday</b></div>
         <div>9:00 AM - 2:00 PM</div>
         <div>05:00 PM - 08:30 PM</div>
-        <div> <br> </div>
-        <div><b>Monday-Friday Hours</b></div>
+        <div><b>Monday-Friday</b></div>
         <div>9:00 AM - 1:00 PM</div>
         <div>06:00 PM - 08:30 PM</div>
       </div>
 
-      <div class="cell cell--12 cell--md-6 cell--lg-3 content">
-        <div><a href="/about">About Us</a></div>
-        <div><a href="/board">HTCC Management</a></div>
-        <div><a href="/priests">Our Priests</a></div>
-        <div><br></div>
-        <div><a href="/contact">Contact Us</a></div>
-        <div><a href="#">... Home ...</a></div>
-      </div>
     </div>
 
     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
